@@ -1,0 +1,2 @@
+-- Retrive all points which is lies inside circle
+SELECT * FROM table_name  WHERE ST_Intersects(st_buffer(st_makepoint(latitude, longitude)::geography, distance_in_meters)::geometry ,st_setsrid(geom,4326));
