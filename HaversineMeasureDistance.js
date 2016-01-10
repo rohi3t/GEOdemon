@@ -9,7 +9,7 @@
     Input endPoint   : {x:latitude, y:longitude}
 
     example: 
-        var distance = MeasureDistance({x:77.38100009397795,y:23.358388972416385},{x:77.69672634719053, y:23.358388972416385});
+        var distance = MeasureDistance({x:23.358388972416385,y:77.38100009397795}; var end = {x:23.358388972416385, y:77.69672634719053});
         console.log(distance + 'meters');
         
         output:
